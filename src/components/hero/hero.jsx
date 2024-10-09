@@ -49,6 +49,11 @@ const Hero = () => {
         >
           <motion.h2 variants={textVariants}>Deka Royanto</motion.h2>
           <motion.h1 variants={textVariants}>Web Developer</motion.h1>
+          <motion.h5 variants={textVariants}>
+            I am a graduate of Informatics Engineering from Jenderal Soedirman
+            University who is interested in technology and has some internship
+            experiences.
+          </motion.h5>
 
           <motion.img
             variants={textVariants}
