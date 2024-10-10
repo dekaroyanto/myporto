@@ -4,11 +4,10 @@ import "./app.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./components/Navbar";
 import Hero from "./components/hero/hero";
-import Portfolio from "./components/portfolio/Portfolio";
 import Parallax from "./components/parallax/Parallax";
 import ParticlesBackground from "./components/ParticlesBackground";
 import { Projects } from "./components/projects/Projects";
-import { Footer } from "./components/footer/footer";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -26,7 +25,9 @@ function App() {
         <Projects className="projects" />
       </section>
 
-      {/* <Footer /> */}
+      <section id="footer">
+        <Footer />
+      </section>
     </>
   );
 }

@@ -51,16 +51,16 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>Web Developer</motion.h1>
           <motion.h5 variants={textVariants}>
             I am a graduate of Informatics Engineering from Jenderal Soedirman
-            University who is interested in technology and has some internship
-            experiences.
+            University who is interested in technology especially web
+            development.
           </motion.h5>
 
-          <motion.img
+          {/* <motion.img
             variants={textVariants}
             animate="scrollButton"
             src="/scroll.png"
             alt=""
-          />
+          /> */}
         </motion.div>
       </div>
       <motion.div

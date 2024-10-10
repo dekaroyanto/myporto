@@ -1,9 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
-import projImg1 from "../../assets/img/project-img1.png";
-import projImg2 from "../../assets/img/project-img2.png";
-import projImg3 from "../../assets/img/project-img3.png";
+import projImg1 from "../../assets/img/firmos.png";
+import projImg2 from "../../assets/img/crm.png";
+import projImg3 from "../../assets/img/gajiapp.png";
+import projImg4 from "../../assets/img/logspk.png";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -31,7 +32,7 @@ export const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
   ];
 
@@ -72,12 +73,19 @@ export const Projects = () => {
                       }
                     >
                       <Tab.Pane eventKey="first">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                        <p
+                          style={{
+                            textAlign: "justify",
+                            width: "75%",
+                          }}
+                        >
+                          Here, I showcase some of the work I have developed
+                          throughout my career as a web developer. Each project
+                          represents my dedication, creativity, and continuous
+                          effort to learn and adapt to the latest technologies.
+                          I believe that every project reflects my ability to
+                          solve problems, design innovative solutions, and
+                          collaborate effectively in a team.
                         </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
