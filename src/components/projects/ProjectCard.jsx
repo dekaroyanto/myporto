@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import "./Project.scss";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
@@ -6,7 +7,12 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
       <div className="proj-imgbx">
         <img
           src={imgUrl}
-          style={{ height: "380px", width: "700px", objectFit: "cover" }}
+          style={{
+            height: "380px",
+            width: "100%",
+            objectFit: "cover",
+          }}
+          alt={title}
         />
         <div className="proj-txtx">
           <h4>{title}</h4>

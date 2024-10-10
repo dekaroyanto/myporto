@@ -50,15 +50,6 @@ export const NavBar = () => {
                 Home
               </Nav.Link>
               <Nav.Link
-                href="#skills"
-                className={
-                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("skills")}
-              >
-                Skills
-              </Nav.Link>
-              <Nav.Link
                 href="#projects"
                 className={
                   activeLink === "projects"
@@ -72,21 +63,25 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/deka-royanto/">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/deka.royanto.1?mibextid=LQQJ4d">
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/dekaroyanto/">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
-                <button className="vvd">
-                  <span>Let’s Connect</span>
-                </button>
-              </HashLink>
+
+              <a
+                href="https://drive.google.com/file/d/1M8jEhm8nrGro0rDtNWP3-Y8v5rkwKTBi/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="vvd"
+              >
+                <span>Let’s Connect</span>
+              </a>
             </span>
           </Navbar.Collapse>
         </Container>

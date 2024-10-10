@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
 import projImg1 from "../../assets/img/firmos.png";
-import projImg2 from "../../assets/img/crm.png";
+import projImg2 from "../../assets/img/umroh.png";
 import projImg3 from "../../assets/img/gajiapp.png";
 import projImg4 from "../../assets/img/logspk.png";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
@@ -12,26 +12,26 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects1 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "CUSTOMER ARCHIVE AND MONITOR ORDER DELIVERY SYSTEM",
+      description: "CV FIRMOS",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "UMROH AND TRAVELING",
+      description: "PT TRANS RETAIL INDONESIA",
       imgUrl: projImg2,
     },
   ];
 
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "SALARY SYSTEM",
+      description: "PT COLUMBUS",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "DECISION SUPPORT SYSTEMS",
+      description: "PT COLUMBUS",
       imgUrl: projImg4,
     },
   ];

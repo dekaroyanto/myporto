@@ -1,0 +1,12 @@
+.proj-imgbx {
+  position: relative;
+  width: 100%; // Ensure it takes full width of the Col
+  overflow: hidden; // Prevent overflow if necessary
+  border-radius: 8px; // Optional: add some border radius for aesthetics
+
+  img {
+    height: 380px; // Keep the fixed height
+    width: 100%; // Make sure it fills the container's width
+    object-fit: cover; // Use cover to ensure the image covers the area without distortion
+  }
+}
