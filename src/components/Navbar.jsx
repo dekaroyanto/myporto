@@ -75,12 +75,12 @@ export const NavBar = () => {
               </div>
 
               <a
-                href="https://drive.google.com/file/d/1M8jEhm8nrGro0rDtNWP3-Y8v5rkwKTBi/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QnnfB-VUccnNURkwd99nTV9xQ1WHfvA6/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="vvd"
               >
-                <span>Let’s Connect</span>
+                <span>Download CV</span>
               </a>
             </span>
           </Navbar.Collapse>
