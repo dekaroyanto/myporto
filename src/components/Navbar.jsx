@@ -75,7 +75,7 @@ export const NavBar = () => {
               </div>
 
               <a
-                href="https://drive.google.com/file/d/1QnnfB-VUccnNURkwd99nTV9xQ1WHfvA6/view?usp=sharing"
+                href="https://drive.google.com/file/d/1p-RJzpbqWWax1Qg4AkubmdKAJO93HR0K/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="vvd"
