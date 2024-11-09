@@ -85,7 +85,7 @@ export const Projects = () => {
                           effort to learn and adapt to the latest technologies.
                           I believe that every project reflects my ability to
                           solve problems, design innovative solutions, and
-                          collaborate effectively in a team. <br> <br>
+                          collaborate effectively in a team. <br></br> <br></br>
                           You can visit my github on: https://github.com/dekaroyanto
                         </p>
                       </Tab.Pane>
