@@ -47,7 +47,7 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>-Deka Royanto-</motion.h2>
+          <motion.h2 variants={textVariants}>Deka Royanto</motion.h2>
           <motion.h1 variants={textVariants}>Web Developer</motion.h1>
           <motion.h5 variants={textVariants}>
             I am a graduate of Informatics Engineering from Jenderal Soedirman
